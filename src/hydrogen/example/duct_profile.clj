@@ -4,9 +4,6 @@
 (def render (renderer "hydrogen.example"))
 
 (defn hydrogen.example [data]
-      (prn)
-      (prn "HELLO!")
-      (prn)
       {:extra-deps ['[magnetcoop/stork "0.1.5"]
                     '[aramis "0.1.1"]]
        :extra-files [["resources/{{dirs}}/parrot.txt" (render "parrot.txt" data)]

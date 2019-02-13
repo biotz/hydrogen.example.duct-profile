@@ -1,3 +1,5 @@
+# **IMPORTANT NOTE - This repository works on a feature of Duct that hasn't been released yet and is still unstable in terms of design. Because of that take this repo with a grain of salt.**
+
 # hydrogen.example.duct-profile
 
 A sample external profile for [Duct template](https://github.com/duct-framework/duct)
